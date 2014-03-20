@@ -1,0 +1,3 @@
+<Files ~ .*\.(xml|swf)>
+	RewriteEngine Off
+</Files>

@@ -1,29 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>MCUBE Solutions | CU3ER By Template World</title>
-<link href="css/styles.css" rel="stylesheet" type="text/css" media="all" />
-<!--  STEP ONE: insert path to SWFObject JavaScript -->
-<script type="text/javascript" src="js/swfobject/swfobject.js"></script>
-
-<!--  STEP TWO: configure SWFObject JavaScript and embed CU3ER slider -->
-<script type="text/javascript">
-		var flashvars = {};
-		flashvars.xml = "config.xml";
-		flashvars.font = "font.swf";
-		var attributes = {};
-		attributes.wmode = "transparent";
-		attributes.id = "slider";
-		swfobject.embedSWF("cu3er.swf", "cu3er-container", "800", "360", "9", "expressInstall.swf", flashvars, attributes);
-</script>
-</head>
-
+<!DOCTYPE html>
+<!--pre_Html--><!--head-->
 <body>
+<!--pre_Body--><!--debug_info-->
 <div id="head">
  <div id="head_cen">
   <div id="head_sup" class="head_height">
-  <img src="images/bannerBg.png" alt="" class="ban_bg" />
+  <img src="../themes/mCube/images/bannerBg.png" alt="" class="ban_bg" />
    <p class="search">
     <label>SEARCH</label>
     <input name="search" type="text" class="txt" />
@@ -68,17 +50,17 @@
    </div>
    <ul id="infoPan">
     <li>
-     <h3><span>web</span> design <img src="images/icon1.png" alt="" /></h3>
+     <h3><span>web</span> design <img src="../themes/mCube/images/icon1.png" alt="" /></h3>
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
      <p class="descrip">Maecenas ut lacus magna, ut consectetur quam. Etiam pharetra tincidunt massa, vitae pulvinar eros commodo ut. Sed in orci neque. Mauris eros est, auctor vitae.</p>
     </li>
     <li>
-     <h3><span>web</span> coding <img src="images/icon2.png" alt="" /></h3>
+     <h3><span>web</span> coding <img src="../themes/mCube/images/icon2.png" alt="" /></h3>
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
      <p class="descrip">Maecenas ut lacus magna, ut consectetur quam. Etiam pharetra tincidunt massa, vitae pulvinar eros commodo ut. Sed in orci neque. Mauris eros est, auctor vitae.</p>
     </li>
     <li>
-     <h3><span>web</span> market <img src="images/icon3.png" alt="" /></h3>
+     <h3><span>web</span> market <img src="../themes/mCube/images/icon3.png" alt="" /></h3>
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
      <p class="descrip">Maecenas ut lacus magna, ut consectetur quam. Etiam pharetra tincidunt massa, vitae pulvinar eros commodo ut. Sed in orci neque. Mauris eros est, auctor vitae.</p>
     </li>
@@ -89,32 +71,7 @@
     <input name="id" type="text" value="email id" class="txt" />
     <input name="submit" type="submit" class="btn" value="submit" />
    </div>
-   <div id="blog">
-    <h3><span>from the</span> blog</h3>
-    <ul>
-      <li>
-       <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
-       <p>Maecenas ut lacus magna, ut consectetur quam. Etiam pharetra tincidunt massa, vitae pulvinar eros commodo ut. Sed in orci neque. Mauris eros est, auctor vitae.</p>
-      </li>
-      <li>
-       <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
-       <p>Maecenas ut lacus magna, ut consectetur quam. Etiam pharetra tincidunt massa, vitae pulvinar eros commodo ut. Sed in orci neque. Mauris eros est, auctor vitae.</p>
-      </li>
-    </ul>
-   </div>
-   <div id="latest">
-    <h3><span>latest </span>latest </h3>
-    <ul>
-      <li>
-        <a href="#">consectetur adipiscing elit.</a>
-        <p>Maecenas ut lacus magna, ut consectetur quam. Etiam pharetra tincidunt.</p>
-      </li>
-      <li>
-        <a href="#">consectetur adipiscing elit.</a>
-        <p>Maecenas ut lacus magna, ut consectetur quam. Etiam pharetra tincidunt.</p>
-      </li>
-    </ul>
-   </div> 
+<!--content-->
   </div>
  </div>
 </div>
@@ -137,5 +94,14 @@
     <p>© Your Copyright Info Here. Designed by: <a href="http://www.templateworld.com" target="_blank">Template World</a></p>
  </div>
 </div>
+<!--post_Body-->
+<script type="text/javascript">
+	var flashvars = {};
+	flashvars.xml = "../themes/mCube/config.xml";
+	var attributes = {};
+	attributes.wmode = "transparent";
+	attributes.id = "slider";
+	swfobject.embedSWF("../themes/mCube/cu3er.swf", "cu3er-container", "800", "360", "9", "../themes/mCube/swfobject/expressInstall.swf", flashvars, attributes);
+</script>
 </body>
-</html>
+<!--post_Html-->
